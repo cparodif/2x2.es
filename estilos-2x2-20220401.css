@@ -1,0 +1,52 @@
+		body {
+			min-height: 100vh;
+            max-width: 640px;
+            color: hsl(270, 100%, 50%,80%);
+			color: hsl(250, 100%, 18%,1);
+			background-color:hsl(270, 60%, 50%, 15%);
+			background-color:hsl(88, 75%, 75%, 40%);
+			font-family: "Times New Roman", Times, serif;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+		}
+		a {
+			color: hsl(270, 100%, 50%,80%);
+			color: hsl(250, 100%, 18%,1);
+			text-decoration: underline  dotted ;
+		}
+		b, h1, h2, h3 {
+			color: purple;
+			color: rgb(0, 0, 0);
+		}
+		h1 {
+			text-shadow: 2px 2px 5px yellow;
+		    font-size: 25px;
+			height: 20px;
+			letter-spacing: -1px;
+			line-height: 0.1;
+			font-stretch: ultra-condensed;
+		}
+
+		h2 {
+			text-shadow: 2px 2px 5px green;
+		    font-size: 20px;
+			font-stretch: extra-condensed;
+			letter-spacing: -1px;
+			line-height: 0.1;
+			height: 20px;
+		}
+		h3 {
+			text-shadow: 2px 2px 5px orange;
+		    font-size: 16px;
+			height: 20px;
+			letter-spacing: -1px;
+			line-height: 1;
+			font-stretch: ultra-condensed;
+		}
+		b {
+			text-shadow: 2px 2px 5px gray;
+		}
+
+		p, td {
+		    font-size: 14px;
+		}
