@@ -29,10 +29,10 @@ function LINKPPAL(fun_description, fun_url) {
 }
 
 function LINK(fun_description,fun_url) {
-	TEXTO('<a href="'+fun_url+'" target="_blank">'+fun_description+'</a><br>');
+	TEXTO('<br>-><a href="'+fun_url+'" target="_blank">'+fun_description+'</a><br>');
 }
 function DOCUMENTO(doc_description,doc_url,doc_extension,doc_tamanio,doc_ampliacion) {
-	TEXTO('<a href="documentos/'+doc_url+doc_extension+'" target="_blank">'+doc_description+'</a> ('+doc_extension+', '+doc_tamanio+' ). '+doc_ampliacion+'<br>');
+	TEXTO('<br>-><a href="documentos/'+doc_url+doc_extension+'" target="_blank">'+doc_description+'</a> ('+doc_extension+', '+doc_tamanio+' ). '+doc_ampliacion+'<br>');
 }
 function TELEF(fun_tel) {
  	TEXTO('<a href="tel:'+fun_tel+'" >Tel: <b>'+fun_tel+'</b></a><br>');
@@ -96,7 +96,7 @@ function TABLAFIN(){
 function YOUTUBE(url_description, id_url_video){
 	TEXTO("<br>");
 	MARGEN();
-	LINK(url_description,"https://youtu.be/"+id_url_video);
+	TEXTO('-><a href=https://youtu.be/"'+id_url_video+'" target="_blank">'+url_description+'</a><br>');
 	PARRAFO('<iframe width="560" height="315" src="https://www.youtube.com/embed/'+id_url_video+'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> ');
 	TEXTO("<br>");
 }
